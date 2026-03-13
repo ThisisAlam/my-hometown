@@ -21,7 +21,9 @@
                 //border-bottom-right-radius:0;
                 border:2px solid #b1e17dff;
                 border-bottom:5px solid #b1e17dff;
-                padding:20px;}
+                padding:20px;
+                max-width:1000px;
+                margin:0 auto;}
             .hero h1, .hero p {
                 max-width:500px;
                 cursor: pointer;
