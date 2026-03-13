@@ -1,0 +1,182 @@
+            body{
+                margin:20px;
+                border:5px solid white;
+                border-radius:20px;
+                box-shadow: 0 0 5px #c9c9c9ff;
+                box-sizing:border-box;}
+            .hero{
+                background-image: url('images/multan_background.jpg');
+                background-size: cover; /* Alternatives: 100% auto, 120% */
+                background-repeat: no-repeat;
+                background-position: center;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+                height:400px;
+                color: white;
+                text-align:center;
+                border-radius:20px;
+                //border-bottom-left-radius:0;
+                //border-bottom-right-radius:0;
+                border:2px solid #b1e17dff;
+                border-bottom:5px solid #b1e17dff;
+                padding:20px;}
+            .hero h1, .hero p {
+                max-width:500px;
+                cursor: pointer;
+                transition:transform 0.3s ease;}
+            .hero h1 {
+                font-size:40px;}
+            .hero p {
+                font-size:25px;}
+            .hero h1, .hero p {    
+                cursor: pointer;
+                transition:transform 0.3s ease;}
+            .hero h1:hover, .hero p:hover {
+                transform:scale(1.08);
+                text-shadow:0 0 3px black;
+                filter:brightness(5);}
+            .hero h1::after, .hero p::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -3px;
+                width: 0;
+                height:2px;
+                background: white;
+                text-shadow:0 0 3px black;
+                transition: width 0.3s ease;}
+            .hero h1:hover::after, .hero p:hover::after {
+               width:100%;}
+
+                
+            .info{
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                text-align:center;
+                padding: 0 20px 20px 20px;
+                margin-top: 30px;}
+            .info h2 {
+                padding: 5px 20px 5px 20px;
+                background: #cfcf6fff;
+                border-radius: 5px;
+                cursor: pointer;
+                transition:transform 0.3s ease, padding 0.3s ease;}
+            .info h2:hover {
+                transform:scale(1.02);
+                transform: translateY(-3px);
+                padding:10px 30px 10px 30px;} 
+            .list{
+                display:flex;
+                justify-content:center;
+                align-items:start;
+                flex-direction:row;
+                flex-wrap:wrap;
+                gap:30px;
+                max-width:1000px;
+                margin:0 auto;
+                border:2px solid #cfcf6fff;
+                border-bottom:6px solid #cfcf6fff;
+                border-radius:20px;
+                padding:30px;
+                cursor: pointer;
+                transition:transform 0.3s ease;}
+            .list:hover{
+                transform: scale(1.01);}
+            .list .image {
+                width:180px;
+                height:180px;
+                border-radius:50%;
+                border:2px solid #cfcf6fff;
+                cursor: pointer;
+                transition:transform 0.3s ease;}
+            .image:hover{
+                transform: scale(1.08);
+                box-shadow: 0 0 5px #cfcf6fff; }
+            .list .item {
+                padding:20px 20px 10px 20px;
+                border-radius:20px;
+                border:2px solid #cfcf6fff;
+                border-bottom:4px solid #cfcf6fff;
+                width: 250px;
+                cursor: pointer;
+                transition:transform 0.3s ease;}
+            .list .item:hover{
+                transform: scale(1.03);}
+            .item h3, .item p{
+                transition:transform 0.3s ease;}
+            .item h3:hover, .item p:hover{
+                transform: scale(1.1);
+                color: #b7b74dff;}
+
+
+            .card {
+                padding:20px 0 20px 0;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;}
+            .card #h2 {
+                padding:5px 20px 5px 20px;
+                background: #E6CDB5;
+                border-radius:5px;
+                cursor: pointer;
+                transition:transform 0.3s ease, padding 0.3s ease;}
+            .card  #h2:hover {
+                transform:scale(1.02);
+                transform: translateY(-3px);
+                padding:10px 30px 10px 30px;}
+            .card-body{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-wrap:wrap;
+                gap:30px;
+                text-align:center;
+                padding:10px 20px 10px 20px;
+                max-width:550px;
+                margin: 0 auto;
+                border-radius:20px;
+                border:2px solid #E6CDB5;
+                border-bottom:6px solid #E6CDB5;
+                cursor: pointer;
+                transition:transform 0.3s ease;}
+            .card-body:hover{
+                transform: scale(1.02);}
+            .card-body .text {
+                width:160px;
+                color: black; }
+            .text h2, .text p, .text h3{
+                cursor:pointer;}
+            .text h2, .text p, .text h3 {
+                transition: transform 0.4s ease;}
+            .text h2:hover, .text p:hover, .text h3:hover {
+                color: #cc7c32ff;
+                transform: scale(1.1);}
+            .text h2::after, .text p::after, .text h3::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -3px;
+                width: 0;
+                height:2px;
+                background: #cc7c32ff;
+                transition: width 0.3s ease, height 0.3s ease;}
+            .text h2:hover::after, .text p:hover::after, .text h3:hover::after {
+               width:100%;}
+            .card-body img{
+                width:150px;
+                height: 150px;
+                border-radius:20px;
+                border:2px solid #cba078ff;
+                border-bottom:6px solid #cba078ff;
+                cursor:pointer;
+                transition: transform 0.3s ease;}
+            .card-body img:hover {
+                transform: scale(1.05);
+                filter:brightness(1.08);
+                box-shadow: 0 0 10px #ccb095ff;}
+               
