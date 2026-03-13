@@ -51,4 +51,4 @@ Multan, Pakistan
 
 ## Live Project
 
-👉 https://my-hometown-multan.netlify.app 👈 
+👉 https://my-hometown-multan2.netlify.app 👈 
